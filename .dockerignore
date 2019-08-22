@@ -1,0 +1,5 @@
+./appOLD
+./Dockerfile
+./Dockerfile.OLD.Phoenix
+*.md
+./.gitignore
