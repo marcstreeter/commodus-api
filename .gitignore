@@ -1,28 +1,40 @@
-# Created by https://www.gitignore.io/api/git,elixir,phoenix
+# Created by https://www.gitignore.io/api/go,git
+# Edit at https://www.gitignore.io/?templates=go,git
 
-### Elixir ###
-/_build
-/cover
-/deps
-/doc
-/.fetch
-erl_crash.dump
-*.ez
-*.beam
-
-### Elixir Patch ###
 ### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
 *.orig
 
-### Phoenix ###
-# Phoenix: a web framework for Elixir
-_build/
-/db
-/*.ez
-node_modules/
-/priv/static/
-/config/prod.secret.exs
-/rel
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# End of https://www.gitignore.io/api/git,elixir,phoenix
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+# End of https://www.gitignore.io/api/go,git
