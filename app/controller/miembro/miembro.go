@@ -77,6 +77,7 @@ func HandleList(c echo.Context) (err error) {
 	return c.JSON(http.StatusOK, miembros)
 }
 
+// HandleUpdate handler for updating members
 func HandleUpdate(c echo.Context) (err error) {
 	uuid := c.Param("id")
 	query := new(UpdateQuery)
