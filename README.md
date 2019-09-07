@@ -20,6 +20,6 @@ Make sure port 8080 is open and use the following endpoints
 Deploy a new docker image and publish it
 
 ```
-docker build . -t marcstreeter/commodus-api:<VERSION>
-docker push marcstreeter/commodus-api:<VERSION>
+inv build --version <VERSION_NUMBER>
 ```
+
