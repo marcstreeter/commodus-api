@@ -2,7 +2,7 @@
 Easy Group Communication API (without talking to the whole group)
 
 # Description
-Provides API backend for commodus
+Members service, provides member operations (CRUD, etc)
 
 # Start
 ```
@@ -22,4 +22,4 @@ Deploy a new docker image and publish it
 ```
 inv build --version <VERSION_NUMBER>
 ```
-
+*example: inv build --version 8*
