@@ -33,8 +33,8 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 	// Routes Miembro
-   e.POST("/member", miembro.HandleCreate)
-   e.PUT("/member/:uuid", miembro.HandleUpdate)
+	e.POST("/member", miembro.HandleCreate)
+	e.PUT("/member/:uuid", miembro.HandleUpdate)
 	e.GET("/member", miembro.HandleList)
 	e.Logger.Fatal(e.Start(":8080"))
 }

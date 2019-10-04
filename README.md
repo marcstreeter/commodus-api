@@ -17,7 +17,7 @@ Make sure port 8080 is open and use the following endpoints
 
 
 # Build
-Deploy a new docker image and publish it
+Deploy a new docker image and publish it. From the `./scripts` directory run:
 
 ```
 inv build --version <VERSION_NUMBER>

@@ -9,10 +9,10 @@ import (
 )
 
 const (
-	DB_HOST     = "localhost"
+	DB_HOST     = "commodus-api-db"
 	DB_PORT     = 5432
-	DB_USER     = "user"
-	DB_PASSWORD = "password"
+	DB_USER     = "commodus"
+	DB_PASSWORD = "34syPssw0rD"
 	DB_NAME     = "commodus"
 )
 
